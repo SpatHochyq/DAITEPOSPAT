@@ -1,0 +1,435 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+ }
+
+ .logo {
+    color: white;
+    position: relative;
+    left: 10px;
+    opacity: 90%;
+}
+.golovna {
+    position: relative;
+    color: white;
+    opacity: 70%;
+    text-align: center;
+    bottom: 60px;
+    font-size: 30px;
+}
+.karta {
+    position: absolute;
+    border-left: 100px solid #323232;
+    border-right: 260px solid #323232;
+    border-bottom: 200px solid #323232;
+    top: 200px;
+    left: 590px;
+    border-radius: 20px;
+}
+.Mono-Online {
+    position: relative;
+    color: white;
+    left: 620px;
+    top: 65px;
+}
+.Universal-Bank {
+    position: relative;
+    color: white;
+    opacity: 15%;
+    left: 725px;
+    top: 32px;
+}
+.chip {
+    position: relative;
+    left: 620px;
+    top: 35px;
+    width: 45px;
+    height: 35px;
+}
+.nomerkartu {
+    color: white;
+    position: relative;
+    left: 620px;
+    top: 18px;
+    font-size: 39px;
+}
+.bbkod {
+    position: relative;
+    color: white;
+    left: 800px;
+    bottom: 27px;
+    font-size: 24px;
+}
+.UAH {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    left: 620px;
+    bottom: 75px;
+}
+.akaynt {
+    color: white;
+    position: relative;
+    left: 1450px;
+    bottom: 470px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu {
+    position: absolute;
+    border-left: 100px solid #171717;
+    border-right: 450px solid #171717;
+    border-bottom: 130px solid #171717;
+    left: 492px;
+    border-radius: 20px;
+}
+.sotseti {
+    position: relative;
+    border-left: 130px solid #222222;
+    border-right: 10px solid #222222;
+    border-bottom: 150px solid #222222;
+    left: 1300px;
+    bottom: 350px;
+    border-radius: 20px;
+}
+.popovnenya {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 510px;
+    bottom: 130px;
+}
+.perekaz {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 550px;
+    bottom: 130px;
+}
+.plateshi {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 600px;
+    bottom: 130px;
+}
+.Market {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 125px;
+    bottom: 80px;
+}
+.kredit {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 155px;
+    bottom: 80px;
+}
+.zao {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 185px;
+    bottom: 80px;
+}
+.konvertu {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 215px;
+    bottom: 80px; 
+}
+.avto {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 245px;
+    bottom: 80px; 
+}
+.insta {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 645px;
+    bottom: 410px; 
+    font-size: 20px;
+}
+
+.tg {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    left: 550px;
+    bottom: 480px; 
+    font-size: 20px;
+}
+.register-logo {
+    color: white;
+    text-align: center;
+}
+.register {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    left: 500px;
+    top: 250px;
+    background-color: #749100;
+    padding: 30px;
+    border-radius: 20px;
+}
+.vhod {
+    left: 580px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    top: 250px;
+    background-color: #2B72B3;
+    padding: 30px;
+    border-radius: 20px;
+}
+.pronas {
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    left: 270px;
+    top: 600px;
+}
+.TM {
+    position: relative;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    left: 280px;
+    top: 600px;
+    opacity: 80%;
+}
+.registerbody {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.registration-container {
+    
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.registerlogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textRegister {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.textiRegister {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+}
+
+.registerbotton{
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    left: 300px;
+    text-decoration: none;
+}
+
+.registerbotton:hover {
+    background-color: #218838;
+}
+.popovnenyaMobilnogo {
+    color: white;
+    text-align: center;
+}
+.nazad {
+    position: relative;
+    color: white;
+    background-color: red;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    left: 490px;
+    top: 40px;
+
+}
+.menuoplatamobil {
+    position: absolute;
+    border-left: 100px solid rgba(28, 28, 28, 1);
+    border-right: 320px solid rgba(28, 28, 28, 1);
+    border-bottom: 500px solid rgba(28, 28, 28, 1);
+    top: 150px;
+    left: 560px;
+    border-radius: 20px;
+}
+.menuOplataModilKarta {
+    position: absolute;
+    border-left: 100px solid #3F3F3F;
+    border-right: 240px solid #3F3F3F;
+    border-bottom: 100px solid #3F3F3F;
+    top: 200px;
+    left: 600px;
+    border-radius: 20px;
+}
+.kartaoplatamobil {
+    position: relative;
+    left: 550px;
+    top: 140px;
+}
+.kartaOplataMobil {
+    color: white;
+    position: relative;
+    left: 720px;
+    top: 55px;
+    font-size: 20px;
+}
+.moneyOplataMobil {
+    color: white;
+    position: relative;
+    left: 760px;
+    top: 50px;
+    font-size: 20px;
+}
+.OplataMobilMenu {
+    position: absolute;
+    border-left: 100px solid #3F3F3F;
+    border-right: 100px solid #3F3F3F;
+    border-bottom: 100px solid #3F3F3F;
+    top: 400px;
+    left: 510px;
+    border-radius: 20px;
+}
+.form-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 590px;
+    top: 120px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input {
+    width: 120x;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+}
+.NeDostatnoKoshtiv {
+    color: white;
+    text-align: center;
+
+}
+.NeYsishna {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.oplatitmobilni2 {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    top: 135px;
+    background-color: #17B54D;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nagolovnyOplata {
+    color: white;
+    font-size: 45px;
+    background-color: #17B54D;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 8px;
+    position: relative;
+    left: 640px;
+    top: 180px;
+    opacity: 90%;
+}
+.yTebeNemaAvto {
+    color: white;
+    text-align: center;
+}
+.nagolovnyAvto {
+opacity: 90%;
+color: white;
+font-size: 45px;
+background-color: #F20000;
+padding: 15px;
+text-decoration: none;
+border-radius: 8px;
+position: relative;
+left: 640px;
+top: 180px;
+}
+.YTebeNemaAkaynty {
+    color: white;
+    text-align: center;
+
+}
+.NazadVhod {
+    opacity: 90%;
+color: white;
+font-size: 45px;
+background-color: #F20000;
+padding: 15px;
+text-decoration: none;
+border-radius: 8px;
+position: relative;
+left: 610px;
+top: 180px;
+}
